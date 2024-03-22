@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.active{
+    @apply px-5 py-3 bg-gradient-to-b from-blue-400 to-blue-100 text-cyan-500 hover:text-blue-800 hover:drop-shadow-[2px_4px_8px_rgba(0,0,0,0.4)]
+}
+.arrow{
+    @apply bg-blue-400 text-blue-800 hover:bg-blue-800 hover:text-blue-100 w-7 h-7 text-center rounded-full absolute top-2 right-2
+}
